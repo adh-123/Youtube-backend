@@ -12,6 +12,8 @@ app.add_middleware(
 
     allow_origins=[
     "https://youtube-clone-dfl0.onrender.com",
+    "https://youtube-backend-1-8m3s.onrender.com/signup",
+    "https://youtube-backend-1-8m3s.onrender.com/signup",
     "http://localhost:5175",
     "http://localhost:5174",
     "http://localhost:5173"
