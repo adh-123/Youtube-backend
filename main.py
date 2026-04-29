@@ -11,7 +11,7 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-    "https://youtube-clone-dfl0.onrender.com",
+    "https://youtube-clone-df10.onrender.com",
     "https://youtube-backend-1-8m3s.onrender.com/signup",
     "https://youtube-backend-1-8m3s.onrender.com/signup",
     "http://localhost:5175",
