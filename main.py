@@ -9,7 +9,13 @@ app = FastAPI()
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://youtube-clone-dfl0.onrender.com"],  
+
+    allow_origins=[
+    "https://youtube-clone-dfl0.onrender.com",
+    "http://localhost:5175",
+    "http://localhost:5174",
+    "http://localhost:5173"
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
